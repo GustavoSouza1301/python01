@@ -22,3 +22,11 @@ def contaVogais(texto):
 def estoque(produto, quant, valorProduto):
     valorTotal = quant * valorProduto
     return (valorTotal)
+
+def numero(num):
+    if num == 0:
+        return "Z"
+    elif num <0:
+        return "N"
+    else:
+        return "P"
