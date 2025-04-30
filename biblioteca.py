@@ -10,3 +10,15 @@ def piranmide(num):
         for i in range(0, x):
             print(x, end=" ")
         print()
+
+def contaVogais(texto):
+    vogais = "aeiouAEIOU"
+    quant = 0
+    for i in range(0, len(texto), 1):
+        if texto[i] in vogais:
+            quant += 1
+    print(quant)
+
+def estoque(produto, quant, valorProduto):
+    valorTotal = quant * valorProduto
+    print(valorTotal)
