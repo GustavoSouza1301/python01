@@ -30,3 +30,9 @@ def numero(num):
         return "N"
     else:
         return "P"
+
+def soma(*a):
+    soma = 0
+    for i in range(len(a)):
+        soma = soma + a[i]
+    print(soma)
