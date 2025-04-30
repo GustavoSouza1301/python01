@@ -21,4 +21,4 @@ def contaVogais(texto):
 
 def estoque(produto, quant, valorProduto):
     valorTotal = quant * valorProduto
-    print(valorTotal)
+    return (valorTotal)
